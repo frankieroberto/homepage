@@ -1,0 +1,88 @@
+body {
+  background-color: aliceblue;
+  color: black;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: 'Rockwell', serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  background-color: darkslategray;
+  color: white;
+  padding: 20px 20px 16px 20px;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+}
+
+footer {
+  background-color: darkslategray;
+  color: white;
+  padding: 20px 20px 16px 20px;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.header-content,
+.footer-content,
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: normal;
+  margin-bottom: 22px;
+  color: darkslategray;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 44px;
+  margin-bottom: 22px;
+  color: darkslategray;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: midnightblue;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+}
+
+a:focus {
+  background-color: gold;
+  color: black;
+  outline: 0;
+  box-shadow: 0 -4px gold;
+}
+
+ul.articles {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.articles li {
+  margin-bottom: 22px;
+}
+
+ul.articles .meta {
+  font-size: 18px;
+  color: slategrey;
+}

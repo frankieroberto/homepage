@@ -1,0 +1,6 @@
+# Files that Git should ignore.
+
+.jekyll-cache/
+_site/
+
+.ruby-version
