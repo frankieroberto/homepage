@@ -1,9 +1,9 @@
-name: Test build
+name: Test
 
 on: [pull_request]
 
 jobs:
-  json-tidy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
