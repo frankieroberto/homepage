@@ -38,6 +38,13 @@ footer a {
   text-decoration: none;
 }
 
+footer address .divider:before {
+  content: '·';
+  color: darkgray;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 main {
   background-color: aliceblue;
 }
