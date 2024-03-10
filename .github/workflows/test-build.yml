@@ -13,7 +13,6 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2'
-    - name: Install Jekyll
-      run: gem install jekyll
+        bundler-cache: true
     - name: Build the site
       run: jekyll build
