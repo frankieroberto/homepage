@@ -19,7 +19,7 @@ header {
   margin: 0;
 }
 
-header nav a {
+header a {
   color: inherit;
   text-decoration: none;
 }
