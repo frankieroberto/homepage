@@ -12,7 +12,8 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2'
-        bunder-cache: true
+        ruby-version: '3.1'
+    - name: Install Jekyll
+      run: gem install jekyll
     - name: Build the site
-      run: bundle exec jekyll build
+      run: jekyll build
