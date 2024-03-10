@@ -111,3 +111,7 @@ ul.articles .meta {
   font-size: 18px;
   color: slategrey;
 }
+
+footer address {
+ font-style: normal; /* override default italic style */
+}
