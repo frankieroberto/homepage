@@ -75,7 +75,7 @@ h2 {
   font-size: 22px;
   font-weight: normal;
   margin-top: 44px;
-  margin-bottom: 22px;
+  margin-bottom: 0;
   color: darkslategray;
 }
 
@@ -110,6 +110,19 @@ ul.articles li {
 ul.articles .meta {
   font-size: 18px;
   color: slategrey;
+}
+
+ul.other-profiles {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 18px;
+}
+
+ul.other-profiles li {
+  margin-left: 0;
+  display: inline;
+  margin-right: 5px;
 }
 
 footer address {
